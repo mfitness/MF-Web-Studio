@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="MF Web Studio - نصمم مواقع احترافية لمشروعك.">
+  <title>MF Web Studio | صمّم حضورك الرقمي</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header class="navbar">
+    <a href="#" class="logo">
+      <span class="logo-mark">MF</span>
+      <span>MF Web Studio</span>
+    </a>
+
+    <nav>
+      <a href="#home">الرئيسية</a>
+      <a href="#services">خدماتنا</a>
+      <a href="#portfolio">أعمالنا</a>
+      <a href="#about">من نحن</a>
+    </nav>
+
+    <a href="#request" class="nav-button">تواصل معنا</a>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <p class="eyebrow">MF WEB STUDIO</p>
+        <h1>حوّل فكرتك إلى<br><span>موقع احترافي</span></h1>
+        <p class="hero-description">
+          نصمم لك مواقع عصرية تساعد مشروعك على النمو
+          والتميز في العالم الرقمي.
+        </p>
+        <a href="#request" class="primary-btn">اطلب موقعك الآن ←</a>
+      </div>
+
+      <div class="hero-visual">
+        <div class="visual-logo">MF</div>
+        <h2>MF Web Studio</h2>
+        <p>BUILD • DESIGN • GROW</p>
+      </div>
+    </section>
+
+    <section class="services" id="services">
+      <p class="eyebrow">ماذا نقدم؟</p>
+      <h2>خدماتنا</h2>
+
+      <div class="service-grid">
+        <article class="service-card">
+          <span>✦</span>
+          <h3>مواقع الشركات</h3>
+          <p>موقع احترافي يعرض خدمات شركتك.</p>
+        </article>
+
+        <article class="service-card">
+          <span>◈</span>
+          <h3>المتاجر الإلكترونية</h3>
+          <p>اعرض منتجاتك بطريقة عصرية.</p>
+        </article>
+
+        <article class="service-card">
+          <span>◎</span>
+          <h3>المواقع الشخصية</h3>
+          <p>عرّف العالم بك وبأعمالك.</p>
+        </article>
+
+        <article class="service-card">
+          <span>✧</span>
+          <h3>تصميم مخصص</h3>
+          <p>تصميم يناسب هوية مشروعك.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+      <p class="eyebrow">إبداعنا يتحدث</p>
+      <h2>أعمالنا</h2>
+      <p>هنا سنعرض نماذج المواقع التي نصممها.</p>
+    </section>
+
+    <section class="about" id="about">
+      <p class="eyebrow">من نحن</p>
+      <h2>نحوّل الأفكار إلى <span>واقع رقمي</span></h2>
+      <p>MF Web Studio — تصميم، تطوير، ونمو لمشروعك.</p>
+    </section>
+
+    <section class="request-section" id="request">
+      <p class="eyebrow">لنبدأ معاً</p>
+      <h2>احكِ لنا عن <span>مشروعك</span></h2>
+      <p>أرسل تفاصيل مشروعك وسنتواصل معك.</p>
+
+      <form id="requestForm">
+        <input type="text" id="name" placeholder="الاسم الكامل" required>
+        <input type="text" id="project" placeholder="اسم المشروع" required>
+        <input type="tel" id="phone" placeholder="رقم الهاتف (اختياري)">
+
+        <select id="category" required>
+          <option value="">اختر نوع الموقع</option>
+          <option>موقع شركة</option>
+          <option>متجر إلكتروني</option>
+          <option>موقع شخصي</option>
+          <option>نوع آخر</option>
+        </select>
+
+        <textarea id="details" placeholder="تفاصيل مشروعك..." required></textarea>
+
+        <button type="submit" class="primary-btn">إرسال طلب التصميم</button>
+        <p id="formMessage"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <h2>MF Web Studio</h2>
+    <p>BUILD • DESIGN • GROW</p>
+    <p>© 2026 MF Web Studio. جميع الحقوق محفوظة.</p>
+  </footer>
+
+  <script type="module" src="script.js"></script>
+</body>
+</html>
